@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>6</initValue>
+      <initValue>12</initValue>
       <name>long_wait</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

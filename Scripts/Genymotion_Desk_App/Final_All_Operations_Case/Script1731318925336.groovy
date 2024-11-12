@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Dashboard_All_Operations'),
 
 WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Add_Device_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Edit_Device_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Edit_Delete_Device_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -19,20 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Windows.startApplication(GlobalVariable.geny_app_url)
 
-Windows.delay(GlobalVariable.short_wait)
+Windows.delay(GlobalVariable.long_wait)
 
 Windows.click(findWindowsObject('Geny_Objects_Record_Script/Geny_Dashboard/Header-Menu_Genymotion'))
 
-Windows.delay(GlobalVariable.short_wait)
-
 Windows.click(findWindowsObject('Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Form_Factor'))
-
-Windows.delay(GlobalVariable.short_wait)
 
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Size'))
 
-Windows.delay(GlobalVariable.short_wait)
-
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Button_Add_Device'))
-
-Windows.delay(GlobalVariable.short_wait)
