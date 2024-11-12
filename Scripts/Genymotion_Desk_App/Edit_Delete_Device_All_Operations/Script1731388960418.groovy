@@ -41,4 +41,3 @@ Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Ge
 
 Windows.waitForElementNotPresent(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Delete_Decive/Added_Device'), 
     30)
-
