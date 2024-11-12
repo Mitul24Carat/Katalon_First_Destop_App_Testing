@@ -17,11 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Dashboard_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
+Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Header-Menu_Genymotion'))
 
-WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Add_Device_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Edit_Delete_Device_All_Operations'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Genymotion_Desk_App/Quit_Application'), [:], FailureHandling.STOP_ON_FAILURE)
-
+Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Quit_App'))

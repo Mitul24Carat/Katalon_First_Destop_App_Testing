@@ -29,7 +29,7 @@ Windows.doubleClick(findWindowsObject('Object Repository/Geny_Objects_Record_Scr
 Windows.clearText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Delete_Decive/Edit_Device_Name'))
 
 Windows.setText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Delete_Decive/Edit_Device_Name'), 
-    'Custom Phone Updated Version')
+    'Custom Phone Updated')
 
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Delete_Decive/Button_Confirm_Edit'))
 
@@ -42,4 +42,3 @@ Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Ge
 Windows.waitForElementNotPresent(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Delete_Decive/Added_Device'), 
     30)
 
-Windows.closeApplication()

@@ -21,9 +21,9 @@ Windows.startApplication(GlobalVariable.geny_app_url)
 
 Windows.delay(GlobalVariable.long_wait)
 
-Windows.click(findWindowsObject('Geny_Objects_Record_Script/Geny_Dashboard/Header-Menu_Genymotion'))
+Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Header-Menu_Genymotion'))
 
-Windows.click(findWindowsObject('Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Form_Factor'))
+Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Form_Factor'))
 
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Size'))
 
