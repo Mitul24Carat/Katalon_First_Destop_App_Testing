@@ -29,10 +29,6 @@ Windows.click(findWindowsObject('Geny_Objects_Record_Script/Geny_Dashboard/Side-
 
 Windows.delay(GlobalVariable.short_wait)
 
-Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Density'))
-
-Windows.delay(GlobalVariable.short_wait)
-
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Dashboard/Side-Menu_Size'))
 
 Windows.delay(GlobalVariable.short_wait)

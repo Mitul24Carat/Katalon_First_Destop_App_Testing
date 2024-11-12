@@ -24,20 +24,22 @@ Windows.delay(GlobalVariable.short_wait)
 
 Windows.rightClick(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Click_Added_Device'))
 
-Windows.delay(GlobalVariable.long_wait)
+Windows.delay(GlobalVariable.moderate_wait)
 
-Windows.clearText(findWindowsObject('Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'))
+Windows.doubleClick(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'))
 
-Windows.setText(findWindowsObject('Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'), 'Custom Phone Updated')
+Windows.delay(GlobalVariable.short_wait)
 
-//Windows.clearText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'))
-//
-//Windows.delay(GlobalVariable.short_wait)
-//
-//Windows.setText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'), 'Custom Phone Updated')
-//
-//Windows.delay(GlobalVariable.short_wait)
+Windows.clearText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'))
+
+Windows.delay(GlobalVariable.short_wait)
+
+Windows.setText(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Edit_Device_Name'), 'Custom Phone Updated Version')
+
+Windows.delay(GlobalVariable.short_wait)
+
 Windows.click(findWindowsObject('Object Repository/Geny_Objects_Record_Script/Geny_Edit_Decive/Button_Confirm_Edit'))
 
 Windows.delay(GlobalVariable.short_wait)
 
+Windows.closeApplication()
